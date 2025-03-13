@@ -15,5 +15,5 @@
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ## 📊 GitHub Stats  
-![Cesar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=radical)
+![Cesar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=https://github.com/ginezCesar&show_icons=true&theme=radical)
 
