@@ -1,16 +1,16 @@
-## Hi there 👋
+# Olá, eu sou o Cesar! 👋  
 
-<!--
-**ginezCesar/ginezCesar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 **Dev em construção** |💛 JavaScript & 🐧 Linux  
 
-Here are some ideas to get you started:
+💡 Estudante de **Análise e Desenvolvimento de Sistemas**  
+💻 Focado em **Back-End & Banco de Dados**  
+📚 Aprendendo **Orientação a Objetos e Desenvolvimento Web**  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔗 **Conecte-se comigo:**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-usuario)  
+
+## 🚀 Tecnologias  
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+
