@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="/">Digite um numero</label>
+    <input type="text" name="" id="numero1">
+
+    <label for="/">digite o operador</label>
+    <input type="text" name="" id="operador">
+
+    <label for="/">Digite outro numero</label>
+    <input type="text" name="" id="numero2">
+    
+    <button onclick="conta()">enviar</button>
+
+    <div id="resultado"></div>
+
+    <script src="./aula9.js"></script>
+</body>
+</html>
+
+function conta(){
+    const numero1 = document.getElementById('numero1').value;
+    const numero2 = document.getElementById('numero2').value;
+    const resultado = document.getElementById('resultado');
+
+    const numeroTratado1 = Number(numero1);
+    const numeroTratado2 = Number(numero2);
+
+    const operador = document.getElementById('operador').value;
+
+    if (operador === "+") {
+        soma(numeroTratado1, numeroTratado2);
+    }
+    if (operador === "*"){
+        multiplicacao()
+    }
+    if (operador === "-"){
+        subtracao()
+    }
+    if (operador === "/"){
+        divisao()
+    }
+    
+}
+
+function soma(numero1, numero2) {
+    
+
+    console.log(numero1, numero2)
+
+    alert('Soma')
+    let conta = numero1 + numero2;
+    resultado.innerHTML = `${numero1} + ${numero2} = ${conta}`;
+
+    console.log(numeroTratado1, numeroTratado2)
+
+}
+
+function multiplicacao(){
+    const numero1 = document.getElementById('numero1').value;
+    const numero2 = document.getElementById('numero2').value;
+    const resultado = document.getElementById('resultado');
+
+    const numeroTratado1 = Number(numero1);
+    const numeroTratado2 = Number(numero2);
+
+    console.log(numero1, numero2)
+
+    alert('Multiplicação')
+    let conta = numeroTratado1 * numeroTratado2;
+    resultado.innerHTML = `${numeroTratado1} * ${numeroTratado2} = ${conta}`;
+
+    console.log(numeroTratado1, numeroTratado2)
+
+}
+
+function subtracao(){
+    const numero1 = document.getElementById('numero1').value;
+    const numero2 = document.getElementById('numero2').value;
+    const resultado = document.getElementById('resultado');
+
+    const numeroTratado1 = Number(numero1);
+    const numeroTratado2 = Number(numero2);
+
+    console.log(numero1, numero2)
+
+    alert('subtração')
+    let conta = numeroTratado1 - numeroTratado2;
+    resultado.innerHTML = `${numeroTratado1} - ${numeroTratado2} = ${conta}`;
+
+    console.log(numeroTratado1, numeroTratado2)
+
+}
+
+function divisao(){
+    const numero1 = document.getElementById('numero1').value;
+    const numero2 = document.getElementById('numero2').value;
+    const resultado = document.getElementById('resultado');
+
+    const numeroTratado1 = Number(numero1);
+    const numeroTratado2 = Number(numero2);
+
+    console.log(numero1, numero2)
+
+    alert('divisao')
+    let conta = numeroTratado1 / numeroTratado2;
+    resultado.innerHTML = `${numeroTratado1} / ${numeroTratado2} = ${conta}`;
+
+    console.log(numeroTratado1, numeroTratado2)
+
+}
